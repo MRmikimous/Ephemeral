@@ -1,10 +1,10 @@
 import './App.css';
-import MyButton from './components/MyButton'
+import Form from './components/Form';
 
 const App = () => {
   return (
     <div className="flex content">
-      <MyButton />
+      <Form />
     </div>
   );
 };
