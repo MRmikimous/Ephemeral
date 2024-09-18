@@ -9,10 +9,10 @@ export default function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/Ephemeral/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="signin" element={<SignIn />} />
+          <Route path="/Ephemeral/about" element={<About />} />
+          <Route path="/Ephemeral/signin" element={<SignIn />} />
 
           <Route path="*" element={<SignIn />} />
         </Route>

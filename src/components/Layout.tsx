@@ -14,13 +14,13 @@ const Layout = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Ephemeral
           </Typography>
-          <Button color="inherit" component={RouterLink} to="/">
+          <Button color="inherit" component={RouterLink} to="/Ephemeral/">
             Home
           </Button>
-          <Button color="inherit" component={RouterLink} to="/about">
+          <Button color="inherit" component={RouterLink} to="/Ephemeral/about">
             About
           </Button>
-          <Button color="inherit" component={RouterLink} to="/signin">
+          <Button color="inherit" component={RouterLink} to="/Ephemeral/signin">
             Sign In
           </Button>
         </MUIToolbar>
